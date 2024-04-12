@@ -15,8 +15,8 @@ interface Habitacion {
 export class HomePage implements OnInit, OnDestroy {
   // Definir array de habitaciones con la interfaz Habitacion
   habitaciones: Habitacion[] = [
-    { nombre: 'Ático', luminaria: false },
-    { nombre: 'Baño', luminaria: false },
+    { nombre: 'Atico', luminaria: false },
+    { nombre: 'Banio', luminaria: false },
     { nombre: 'Cocina', luminaria: false },
     { nombre: 'Dormitorio', luminaria: false },
     { nombre: 'Garaje', luminaria: false },
